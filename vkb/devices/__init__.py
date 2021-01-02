@@ -5,7 +5,7 @@ from .base import VKBDevice
 
 
 if sys.platform.startswith("win"):
-    from vkb.platform.win import find_all_vkb
+    from vkb.platformos.win import find_all_vkb
 else:
     raise NotImplementedError("This platform is not yet supported by pyvkb")
 
